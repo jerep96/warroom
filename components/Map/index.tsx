@@ -97,7 +97,9 @@ export default function MapComponent({ conflicts, selected, onSelect }: MapProps
       bounds.push([conflict.lat, conflict.lng])
     })
 
-    if (bounds.length > 0) {
+    if (bounds.length === 1) {
+      map.setView(bounds[0], 4)
+    } else if (bounds.length > 1) {
       map.fitBounds(bounds, { padding: [40, 40] })
     }
 

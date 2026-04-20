@@ -34,7 +34,22 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   const { slug } = await params
   const conflict = conflicts.find((c) => c.slug === slug)
   if (!conflict) return {}
-  return { title: `${conflict.name} | WARROOM` }
+  return {
+    title: conflict.name,
+    description: conflict.context,
+    keywords: [conflict.name, conflict.region, `${conflict.name} 2025`, `${conflict.name} casualties`, `${conflict.name} map`, 'armed conflict', 'war tracker'],
+    openGraph: {
+      title: `${conflict.name} | WARROOM`,
+      description: conflict.context,
+      url: `https://warroom-dusky.vercel.app/conflicts/${conflict.slug}`,
+      images: [{ url: '/og-image.png', width: 1200, height: 630 }],
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title: `${conflict.name} | WARROOM`,
+      description: conflict.context,
+    },
+  }
 }
 
 export default async function ConflictDetailPage({
@@ -332,6 +347,28 @@ export default async function ConflictDetailPage({
                 </span>
               </div>
             ))}
+          </div>
+
+          {/* Ko-fi */}
+          <div style={{ padding: '20px 24px', borderBottom: '1px solid #1a2332', display: 'flex', justifyContent: 'center' }}>
+            <a
+              href="https://ko-fi.com/TU_URL"
+              target="_blank"
+              rel="noopener noreferrer"
+              style={{
+                fontFamily: '"Share Tech Mono", monospace',
+                fontSize: '10px',
+                color: '#f39c12',
+                border: '1px solid #f39c12',
+                padding: '6px 16px',
+                letterSpacing: '1px',
+                textDecoration: 'none',
+                opacity: 0.7,
+                transition: 'opacity 0.2s',
+              }}
+            >
+              SUPPORT THIS PROJECT ◈
+            </a>
           </div>
 
           {/* Full events timeline */}

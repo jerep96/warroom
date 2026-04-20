@@ -1,10 +1,14 @@
-'use client'
-
+import type { Metadata } from 'next'
 import Link from 'next/link'
 import conflictsData from '@/data/conflicts.json'
 import { Conflict, Severity } from '@/types'
 
 const conflicts = conflictsData as Conflict[]
+
+export const metadata: Metadata = {
+  title: 'All Active Conflicts',
+  description: 'Complete list of ongoing armed conflicts worldwide. Browse wars, insurgencies and geopolitical tensions with real-time data on casualties and displaced people.',
+}
 
 const severityColor: Record<Severity, string> = {
   high: '#e74c3c',
@@ -80,20 +84,12 @@ export default function ConflictsPage() {
               style={{ textDecoration: 'none' }}
             >
               <div
+                className="conflict-card"
                 style={{
                   background: '#0d1117',
                   borderLeft: `3px solid ${color}`,
                   padding: '20px',
                   cursor: 'crosshair',
-                  transition: 'background 0.15s',
-                }}
-                onMouseEnter={(e) => {
-                  ;(e.currentTarget as HTMLElement).style.background = `rgba(${
-                    c.severity === 'high' ? '231,76,60' : c.severity === 'medium' ? '243,156,18' : '41,128,185'
-                  },0.07)`
-                }}
-                onMouseLeave={(e) => {
-                  ;(e.currentTarget as HTMLElement).style.background = '#0d1117'
                 }}
               >
                 {/* Region */}
@@ -140,7 +136,7 @@ export default function ConflictsPage() {
                       top: 0,
                       height: '100%',
                       width: `${c.threat}%`,
-                      background: `linear-gradient(to right, #27ae60, #f39c12, #e74c3c)`,
+                      background: 'linear-gradient(to right, #27ae60, #f39c12, #e74c3c)',
                     }}
                   />
                 </div>

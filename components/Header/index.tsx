@@ -105,6 +105,28 @@ export default function Header({ wikiLastEdited }: HeaderProps) {
         ))}
       </div>
 
+      {/* Ko-fi */}
+      <a
+        href="https://ko-fi.com/TU_URL"
+        target="_blank"
+        rel="noopener noreferrer"
+        style={{
+          fontFamily: '"Share Tech Mono", monospace',
+          fontSize: '10px',
+          color: '#f39c12',
+          border: '1px solid #f39c12',
+          padding: '4px 10px',
+          letterSpacing: '1px',
+          textDecoration: 'none',
+          opacity: 0.7,
+          transition: 'opacity 0.2s',
+        }}
+        onMouseEnter={(e) => (e.currentTarget.style.opacity = '1')}
+        onMouseLeave={(e) => (e.currentTarget.style.opacity = '0.7')}
+      >
+        SUPPORT ◈
+      </a>
+
       {/* UTC Clock + Wiki timestamp */}
       <div style={{ textAlign: 'right' }}>
         <div

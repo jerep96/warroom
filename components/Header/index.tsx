@@ -107,7 +107,7 @@ export default function Header({ wikiLastEdited }: HeaderProps) {
 
       {/* Ko-fi */}
       <a
-        href="https://ko-fi.com/TU_URL"
+        href="https://ko-fi.com/warroom"
         target="_blank"
         rel="noopener noreferrer"
         style={{

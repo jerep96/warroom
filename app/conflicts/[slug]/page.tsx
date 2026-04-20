@@ -352,7 +352,7 @@ export default async function ConflictDetailPage({
           {/* Ko-fi */}
           <div style={{ padding: '20px 24px', borderBottom: '1px solid #1a2332', display: 'flex', justifyContent: 'center' }}>
             <a
-              href="https://ko-fi.com/TU_URL"
+              href="https://ko-fi.com/warroom"
               target="_blank"
               rel="noopener noreferrer"
               style={{

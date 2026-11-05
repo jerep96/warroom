@@ -61,14 +61,28 @@ export default function MapComponent({ conflicts, selected, onSelect }: MapProps
       attributionControl: true,
     })
 
-    L.tileLayer(
-      'https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png',
-      {
-        attribution: '© CARTO',
-        subdomains: 'abcd',
-        maxZoom: 19,
-      }
-    ).addTo(map)
+    // CARTO basemaps now require an API key (otherwise tiles show an
+    // "API KEY REQUIRED" watermark). Use CARTO when a key is configured,
+    // and fall back to Esri's keyless dark gray canvas otherwise.
+    const cartoKey = process.env.NEXT_PUBLIC_CARTO_API_KEY
+    if (cartoKey) {
+      L.tileLayer(
+        `https://{s}.basemaps.cartocdn.com/rastertiles/dark_all/{z}/{x}/{y}{r}.png?key=${encodeURIComponent(cartoKey)}`,
+        {
+          attribution: '© OpenStreetMap contributors © CARTO',
+          subdomains: 'abcd',
+          maxZoom: 19,
+        }
+      ).addTo(map)
+    } else {
+      L.tileLayer(
+        'https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Dark_Gray_Base/MapServer/tile/{z}/{y}/{x}',
+        {
+          attribution: 'Tiles © Esri — Esri, DeLorme, NAVTEQ',
+          maxZoom: 16,
+        }
+      ).addTo(map)
+    }
 
     leafletMapRef.current = map
 

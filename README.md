@@ -34,3 +34,9 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+
+## Map tiles
+
+CARTO basemaps require a free API key (request one at https://carto.com/basemaps/apikey/).
+Set it as `NEXT_PUBLIC_CARTO_API_KEY` (in `.env.local` locally and in the Vercel project env vars).
+Without it, the map falls back to Esri's keyless dark gray basemap.

@@ -9,7 +9,7 @@ export const metadata: Metadata = {
     template: '%s | WARROOM',
   },
   description: 'Real-time tracker of active armed conflicts, wars and geopolitical tensions worldwide. Live map with data on casualties, displaced people and international sanctions.',
-  keywords: ['war tracker', 'conflict monitor', 'active wars 2025', 'global conflicts map', 'armed conflicts', 'geopolitical tensions', 'war map', 'conflict data'],
+  keywords: ['war tracker', 'conflict monitor', 'active wars 2026', 'global conflicts map', 'armed conflicts', 'geopolitical tensions', 'war map', 'conflict data'],
   authors: [{ name: 'WARROOM' }],
   creator: 'WARROOM',
   openGraph: {

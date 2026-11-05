@@ -9,7 +9,7 @@ const WIKI_TITLES: Record<string, string> = {
   "taiwan-strait": "Cross-strait_relations",
   "kashmir-conflict": "Kashmir_conflict",
   "yemen-civil-war": "Yemeni_civil_war_(2014–present)",
-  "us-iran-operation-epic-fury-2026": "Iran–United_States_relations",
+  "us-iran-operation-epic-fury-2026": "2026_Iran_war",
   "us-caribbean-drug-war-operation-hawkeye":
     "Joint_Interagency_Task_Force_South",
   "us-somalia-counterterrorism-2025":

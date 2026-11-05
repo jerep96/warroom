@@ -3,6 +3,7 @@
 import Link from 'next/link'
 import { useEffect, useState } from 'react'
 import { Conflict, EventColor, PartyRole, Severity } from '@/types'
+import { formatEventTime } from '@/lib/eventTime'
 
 interface ConflictDetailProps {
   conflict: Conflict | null
@@ -381,7 +382,7 @@ export default function ConflictDetail({ conflict, onWikiLoaded }: ConflictDetai
               <div style={{ flex: 1 }}>
                 <div style={{ display: 'flex', alignItems: 'center', gap: '6px', marginBottom: '3px' }}>
                   <span style={{ fontFamily: '"Share Tech Mono", monospace', fontSize: '9px', color: '#4a5568' }}>
-                    -{event.time}
+                    {formatEventTime(event.time)}
                   </span>
                   <span style={{ fontFamily: '"Share Tech Mono", monospace', fontSize: '11px', color: color, lineHeight: 1.2 }}>
                     {event.title}

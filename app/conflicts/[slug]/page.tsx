@@ -3,6 +3,7 @@ import { notFound } from 'next/navigation'
 import conflictsData from '@/data/conflicts.json'
 import { Conflict, EventColor, PartyRole, Severity } from '@/types'
 import SingleMapClient from '@/components/Map/SingleMapClient'
+import { formatEventTime } from '@/lib/eventTime'
 
 const conflicts = conflictsData as Conflict[]
 
@@ -37,7 +38,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   return {
     title: conflict.name,
     description: conflict.context,
-    keywords: [conflict.name, conflict.region, `${conflict.name} 2025`, `${conflict.name} casualties`, `${conflict.name} map`, 'armed conflict', 'war tracker'],
+    keywords: [conflict.name, conflict.region, `${conflict.name} ${new Date().getFullYear()}`, `${conflict.name} casualties`, `${conflict.name} map`, 'armed conflict', 'war tracker'],
     openGraph: {
       title: `${conflict.name} | WARROOM`,
       description: conflict.context,
@@ -435,7 +436,7 @@ export default async function ConflictDetailPage({
                           color: '#4a5568',
                         }}
                       >
-                        T-{event.time}
+                        {formatEventTime(event.time)}
                       </span>
                       <span
                         style={{

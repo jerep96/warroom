@@ -5,16 +5,16 @@
     "slug": "russia-ukraine",
     "region": "Eastern Europe",
     "severity": "high",
-    "status": "Active — Frontline fighting ongoing",
+    "status": "Active — Frontline fighting; trilateral talks set for Abu Dhabi",
     "since": "2022",
     "lat": 48.5,
     "lng": 31.2,
     "casualties": "800K+",
     "displaced": "10.2M",
     "sanctions": "21000",
-    "duration": "3y 5m",
-    "threat": 92,
-    "context": "Russia's full-scale invasion of Ukraine, launched in February 2022, has become the largest conventional war in Europe since WWII. Fighting remains concentrated along the 1,200 km frontline in eastern and southern Ukraine, with Russian forces maintaining pressure on Donetsk Oblast. Ukrainian forces continue drone strikes deep into Russian territory, including Moscow and oil infrastructure. Peace negotiations remain stalled amid mutual maximalist positions. Western military aid continues, though at reduced pace due to political uncertainty in the US under the Trump administration. Russia has deployed North Korean troops and Iran-supplied Shahed drones extensively.",
+    "duration": "4y 9m",
+    "threat": 90,
+    "context": "Russia's full-scale invasion of Ukraine, launched in February 2022, remains the largest conventional war in Europe since WWII. Fighting is concentrated in Donetsk Oblast, where Russian forces are slowly pushing into Kostiantynivka, and along the Hulyaipole and western Zaporizhzhia axes. ISW assesses that Russian gains in autumn 2026 have been marginal and that Moscow's claims of capturing 6,500 sq km in 2026 are inflated; Ukraine says October 2026 brought Russia's highest monthly losses of the war. Both sides continue daily long-range drone and missile strikes. After a local ceasefire in Oleshky in late October, the US, Russia and Ukraine agreed to resume trilateral talks in Abu Dhabi on November 10–11, though deep gaps remain over territory, NATO and security guarantees.",
     "wikiTitle": "Russian_invasion_of_Ukraine",
     "parties": [
       {
@@ -60,34 +60,34 @@
     ],
     "events": [
       {
-        "time": "1h",
-        "color": "red",
-        "title": "Massive drone strike on Kyiv",
-        "desc": "Russia launched over 80 Shahed drones targeting Kyiv and surrounding oblasts overnight. Ukrainian air defenses intercepted 64; debris caused fires in residential districts of Darnytskyi."
-      },
-      {
-        "time": "6h",
-        "color": "red",
-        "title": "Ground assault near Pokrovsk intensifies",
-        "desc": "Russian forces launched a renewed mechanized assault on Ukrainian defensive lines west of Pokrovsk in Donetsk Oblast. Ukrainian command reported repelling 14 assault attempts over 12 hours."
-      },
-      {
-        "time": "1d",
-        "color": "amber",
-        "title": "Ukraine strikes Rostov oil depot",
-        "desc": "Ukrainian long-range drones struck a fuel storage facility in Rostov-on-Don, triggering a large fire. The facility reportedly supplies logistics for Russian southern forces grouping."
-      },
-      {
-        "time": "2d",
+        "time": "2026-11-03",
         "color": "blue",
-        "title": "Trump-Zelensky call on ceasefire framework",
-        "desc": "President Zelensky held a phone call with President Trump discussing a proposed 30-day ceasefire framework. Kyiv expressed openness but demanded security guarantees before any territorial negotiations."
+        "title": "Abu Dhabi talks confirmed for Nov 10–11",
+        "desc": "US envoy Steve Witkoff said US, Russian and Ukrainian delegations will resume peace talks in Abu Dhabi next week. Analysts expect no quick breakthrough given gaps over a ceasefire and security guarantees."
       },
       {
-        "time": "3d",
+        "time": "2026-10-25",
+        "color": "blue",
+        "title": "Zelensky confirms trilateral talks",
+        "desc": "President Zelensky confirmed technical-level trilateral meetings with Russia and the US in the first half of November, backing a ceasefire that freezes current front lines."
+      },
+      {
+        "time": "2026-10-24",
         "color": "amber",
-        "title": "EU announces 18th sanctions package",
-        "desc": "The European Union adopted its 18th package of sanctions against Russia, targeting additional banks, shadow fleet vessels, and semiconductor exporters linked to the Russian defense industry."
+        "title": "Local ceasefire agreed in Oleshky",
+        "desc": "Russia and Ukraine agreed a limited ceasefire in the embattled frontline city of Oleshky in Kherson Oblast, alongside plans for new talks."
+      },
+      {
+        "time": "2026-10-17",
+        "color": "red",
+        "title": "Russian push into Kostiantynivka",
+        "desc": "DeepState reported Russian forces gaining a foothold in north-western Kostiantynivka. ISW notes Russian and Ukrainian positions in the city are interspersed and disputes Moscow's broader claims."
+      },
+      {
+        "time": "2026-10",
+        "color": "red",
+        "title": "Ukraine reports record Russian losses",
+        "desc": "Ukraine's foreign minister said October 2026 saw Russia's heaviest monthly losses of the war, including a record 2,500 troops in a single day. Figures are Ukrainian claims."
       }
     ]
   },
@@ -97,16 +97,16 @@
     "slug": "israel-gaza",
     "region": "Middle East",
     "severity": "high",
-    "status": "Active Combat",
+    "status": "Fragile ceasefire — phase two stalled, near-daily Israeli strikes",
     "since": "2023",
     "lat": 31.5,
     "lng": 34.4,
-    "casualties": "185K+",
+    "casualties": "74K+",
     "displaced": "1.9M",
     "sanctions": "340",
-    "duration": "1y 5m",
-    "threat": 91,
-    "context": "Following the Hamas attack on Israel on October 7, 2023, Israel launched a major military operation in Gaza. The conflict has caused a severe humanitarian crisis with most of Gaza's population displaced and critical infrastructure destroyed.",
+    "duration": "3y 1m",
+    "threat": 78,
+    "context": "The war that began with Hamas's 7 October 2023 attack has been under a US-brokered ceasefire since October 2025, but the truce is fragile. Phase two of the Trump peace plan was declared in January 2026 after the last hostage remains were returned, yet the Palestinian Authority says it exists 'only on paper'. Israeli forces still control just over half of the Strip, Hamas has not disarmed, and Israel conducts near-daily strikes it says target militants. Gaza's Health Ministry reports more than 74,000 killed since 2023, including about 1,600 since the ceasefire. Israel's cabinet approved the entry of an International Stabilization Force in July 2026, with a pilot planned in Rafah under the Board of Peace, while hunger and displacement remain severe.",
     "parties": [
       {
         "flag": "🇮🇱",
@@ -127,38 +127,43 @@
         "flag": "🇶🇦",
         "name": "Qatar",
         "role": "MEDIATOR"
+      },
+      {
+        "flag": "🇪🇬",
+        "name": "Egypt",
+        "role": "MEDIATOR"
       }
     ],
     "events": [
       {
-        "time": "1h",
+        "time": "2026-11-03",
         "color": "red",
-        "title": "Airstrike on Rafah",
-        "desc": "23 casualties reported. Local hospital overwhelmed with wounded."
+        "title": "Ceasefire death toll nears 1,600",
+        "desc": "Gaza's Health Ministry said Israeli attacks since the ceasefire took effect have killed 1,599 Palestinians and wounded 5,774. The overall war toll exceeds 74,000."
       },
       {
-        "time": "4h",
-        "color": "red",
-        "title": "Ground operation expands",
-        "desc": "IDF confirms new advance into northern sector of the strip."
-      },
-      {
-        "time": "8h",
+        "time": "2026-10",
         "color": "amber",
-        "title": "Hostage deal negotiations",
-        "desc": "Mediators report cautious progress on three-phase proposal."
+        "title": "Near-daily strikes continue",
+        "desc": "Israel keeps striking targets it describes as Hamas threats near the dividing line, while both sides accuse each other of violating the truce."
       },
       {
-        "time": "1d",
+        "time": "2026-09",
         "color": "blue",
-        "title": "ICJ emergency ruling",
-        "desc": "Court orders immediate halt to specific military operations in Rafah."
+        "title": "Hamas presses for Israeli withdrawal",
+        "desc": "A Hamas delegation visiting Iran called for pressure on Israel to implement the ceasefire agreement and withdraw from the Strip."
       },
       {
-        "time": "2d",
-        "color": "dim",
-        "title": "Aid convoy blocked",
-        "desc": "42 trucks unable to enter northern Gaza for the third consecutive day."
+        "time": "2026-08-09",
+        "color": "blue",
+        "title": "Stabilization force preparations begin",
+        "desc": "Israeli media reported preparations for deploying the International Stabilization Force in parts of Gaza, starting with a pilot in Rafah."
+      },
+      {
+        "time": "2026-07-26",
+        "color": "blue",
+        "title": "Israel approves stabilization force",
+        "desc": "Israel's security cabinet approved the entry of an international stabilisation force operating in coordination with the IDF."
       }
     ]
   },
@@ -168,25 +173,30 @@
     "slug": "myanmar-civil-war",
     "region": "Southeast Asia",
     "severity": "high",
-    "status": "Active Combat",
+    "status": "Active Combat — Battle for Sittwe",
     "since": "2021",
     "lat": 19.7,
     "lng": 96.1,
-    "casualties": "50K+",
+    "casualties": "~100K",
     "displaced": "3.2M",
     "sanctions": "890",
-    "duration": "4y 1m",
-    "threat": 76,
-    "context": "Following the military coup of February 2021, Myanmar descended into civil war as resistance forces known as the People's Defence Force (PDF) fought the military junta (SAC). The conflict has caused massive displacement and a humanitarian catastrophe.",
+    "duration": "5y 9m",
+    "threat": 78,
+    "context": "Myanmar has been at war since the military ousted Aung San Suu Kyi's elected government in February 2021. After disputed elections, Min Aung Hlaing handed command of the armed forces to Ye Win Oo in March 2026, and the military has regained some ground in the centre of the country. ACLED recorded more than 450 civilians killed in mass-killing incidents in the first half of 2026 alone. In Rakhine State, the Arakan Army has pushed to the edge of the state capital Sittwe; a junta amphibious landing on nearby Ngapyi Island in October was repulsed and several navy vessels were reported sunk. Fighting near Sittwe has displaced civilians from more than 70 villages, and more than 50,000 people have fled clashes around Kyaukphyu.",
     "parties": [
       {
         "flag": "🇲🇲",
-        "name": "Military Junta (SAC)",
+        "name": "Military Junta (Tatmadaw)",
         "role": "AGGRESSOR"
       },
       {
-        "flag": "🏴",
-        "name": "PDF / Resistance",
+        "flag": "✊",
+        "name": "PDF / NUG Resistance",
+        "role": "DEFENDER"
+      },
+      {
+        "flag": "⚔️",
+        "name": "Arakan Army",
         "role": "DEFENDER"
       },
       {
@@ -195,35 +205,41 @@
         "role": "SUPPORTER"
       },
       {
-        "flag": "🇺🇳",
+        "flag": "🌏",
         "name": "ASEAN",
         "role": "MEDIATOR"
       }
     ],
     "events": [
       {
-        "time": "3h",
+        "time": "2026-10-31",
         "color": "red",
-        "title": "Airstrikes in Sagaing",
-        "desc": "Villages in Sagaing region targeted. Civilian casualties unconfirmed."
+        "title": "Junta landing on Ngapyi Island cleared",
+        "desc": "Resistance monitors reported that junta troops who landed on Ngapyi Island near Sittwe on Oct 21–22 had been cleared out by the Arakan Army."
       },
       {
-        "time": "1d",
+        "time": "2026-10-26",
+        "color": "red",
+        "title": "Arakan Army sinks navy vessels",
+        "desc": "The Arakan Army reportedly sank two Tatmadaw warships near Sittwe, with some reports citing a third vessel destroyed. Claims are unverified."
+      },
+      {
+        "time": "2026-10-23",
+        "color": "red",
+        "title": "Airstrike on Sittwe kills civilians",
+        "desc": "A junta airstrike on Sittwe town reportedly killed 11 civilians, according to local sources."
+      },
+      {
+        "time": "2026-10",
         "color": "amber",
-        "title": "PDF captures military base",
-        "desc": "Resistance forces take strategic post in Shan state after three-day battle."
+        "title": "70 villages displaced near Sittwe",
+        "desc": "Escalating clashes in Sittwe Township displaced civilians from more than 70 villages across three neighbouring townships."
       },
       {
-        "time": "3d",
-        "color": "blue",
-        "title": "ASEAN envoy expelled",
-        "desc": "Junta refuses to receive regional mediator for the second time."
-      },
-      {
-        "time": "5d",
-        "color": "dim",
-        "title": "Refugee crisis deepens",
-        "desc": "UNHCR reports 200,000 new displacements in the first quarter."
+        "time": "2026-07-27",
+        "color": "amber",
+        "title": "Monitor warns of rising civilian killings",
+        "desc": "ACLED reported more than a dozen mass killings in the first half of 2026, with over 450 civilian deaths, many in the central dry zone."
       }
     ]
   },
@@ -233,16 +249,16 @@
     "slug": "sudan-civil-war",
     "region": "East Africa",
     "severity": "high",
-    "status": "Active Combat",
+    "status": "Active Combat — Kordofan front, no truce",
     "since": "2023",
     "lat": 15.5,
     "lng": 32.5,
     "casualties": "60K+",
     "displaced": "11M",
     "sanctions": "210",
-    "duration": "1y 11m",
-    "threat": 82,
-    "context": "War broke out in April 2023 between Sudan's national army (SAF) and the paramilitary Rapid Support Forces (RSF). The conflict has triggered one of the world's worst humanitarian crises, with famine declared in multiple regions.",
+    "duration": "3y 7m",
+    "threat": 85,
+    "context": "Sudan's war between the army (SAF) and the paramilitary Rapid Support Forces began in April 2023 and has produced the world's largest displacement crisis. After seizing El Fasher in October 2025, the RSF consolidated control over almost all of Darfur and shifted its offensive to Kordofan, besieging the army-held city of El Obeid. UN investigators say October 2026 recorded the highest number of drone attacks on civilians of the war, and accuse SAF security cells of mass arrests and torture in El Obeid. The US has proposed a 90-day humanitarian truce, but army chief al-Burhan rejects talks and vows to retake all territory. Less than half of the humanitarian appeal is funded, and malnutrition is rising in Darfur's camps.",
     "parties": [
       {
         "flag": "🇸🇩",
@@ -267,28 +283,34 @@
     ],
     "events": [
       {
-        "time": "5h",
-        "color": "red",
-        "title": "Khartoum offensive",
-        "desc": "RSF advances on Omdurman. Heavy urban fighting reported in residential areas."
-      },
-      {
-        "time": "1d",
-        "color": "red",
-        "title": "Famine confirmed in Darfur",
-        "desc": "UN declares famine in 5 areas. Over 18 million people at risk of starvation."
-      },
-      {
-        "time": "2d",
+        "time": "2026-10-30",
         "color": "amber",
-        "title": "Regional summit fails",
-        "desc": "African Union emergency session fails to agree on ceasefire mechanism."
+        "title": "Senior RSF commander defects",
+        "desc": "A senior RSF commander announced his defection to the Sudanese Armed Forces."
       },
       {
-        "time": "4d",
-        "color": "dim",
-        "title": "Aid corridor opened",
-        "desc": "Temporary agreement allows 72-hour humanitarian access window."
+        "time": "2026-10-29",
+        "color": "red",
+        "title": "UN: El Obeid civilians trapped",
+        "desc": "The UN fact-finding mission said civilians in El Obeid are \"trapped between drones and incarceration\", with October the worst month for drone attacks on civilians since the war began."
+      },
+      {
+        "time": "2026-10-16",
+        "color": "blue",
+        "title": "US calls for humanitarian truce",
+        "desc": "Washington pressed both sides to accept a humanitarian truce to allow aid deliveries. The RSF backs a truce but objects to parts of the withdrawal plan."
+      },
+      {
+        "time": "2026-10-08",
+        "color": "amber",
+        "title": "Aid appeal less than half funded",
+        "desc": "Less than half of Sudan's humanitarian appeal had been funded as of 8 October; Kalma camp recorded 2,750 malnutrition cases in October."
+      },
+      {
+        "time": "2026-10-07",
+        "color": "red",
+        "title": "Al-Burhan rejects talks",
+        "desc": "Army chief Abdel Fattah al-Burhan rejected negotiations and vowed to retake all territory from the RSF, pointing to advances toward En Nahud and Al Khuway."
       }
     ]
   },
@@ -298,16 +320,16 @@
     "slug": "sahel-insurgency",
     "region": "West Africa",
     "severity": "medium",
-    "status": "Ongoing Insurgency",
+    "status": "Escalating Insurgency — JNIM pressure on Bamako",
     "since": "2012",
     "lat": 15,
     "lng": 2,
     "casualties": "40K+",
     "displaced": "7.5M",
     "sanctions": "120",
-    "duration": "13y",
-    "threat": 62,
-    "context": "Jihadist insurgencies linked to JNIM and ISGS have destabilized Mali, Burkina Faso and Niger since 2012. Following military coups, all three countries expelled French forces and have turned to Russian Wagner Group (now Africa Corps) for security support.",
+    "duration": "14y",
+    "threat": 74,
+    "context": "The jihadist insurgency in the central Sahel, led by al-Qaeda affiliate JNIM and Islamic State Sahel, has spread across Mali, Burkina Faso and Niger, now ruled by military juntas aligned with Russia's Africa Corps. In April 2026 JNIM, allied with Tuareg separatists, launched a major offensive in Mali in which the defence minister was killed and the army pulled back from northern towns, although the army retook Kidal in early October. Since September JNIM has besieged Bamako and cut fuel supplies, and it is now attacking the capital's outskirts. In Burkina Faso, JNIM has staged a series of large assaults on army posts since February. Abuses by state forces and allied militias against civilians continue.",
     "parties": [
       {
         "flag": "🇲🇱",
@@ -315,39 +337,51 @@
         "role": "DEFENDER"
       },
       {
-        "flag": "🏴",
-        "name": "JNIM / ISGS",
+        "flag": "⚔️",
+        "name": "JNIM / IS Sahel",
+        "role": "AGGRESSOR"
+      },
+      {
+        "flag": "🏜️",
+        "name": "FLA (Tuareg separatists)",
         "role": "AGGRESSOR"
       },
       {
         "flag": "🇷🇺",
-        "name": "Wagner / Africa Corps",
+        "name": "Africa Corps (Russia)",
         "role": "SUPPORTER"
-      },
-      {
-        "flag": "🇺🇳",
-        "name": "UN",
-        "role": "MEDIATOR"
       }
     ],
     "events": [
       {
-        "time": "1d",
-        "color": "amber",
-        "title": "JNIM ambush in Mali",
-        "desc": "Convoy attacked on Bamako-Gao road. 14 soldiers killed in coordinated strike."
-      },
-      {
-        "time": "3d",
+        "time": "2026-10-20",
         "color": "red",
-        "title": "Village massacre in Burkina",
-        "desc": "72 civilians killed in Sahel region. Human Rights Watch investigating."
+        "title": "JNIM targets Bamako outskirts",
+        "desc": "JNIM intensified attacks on army bases and the capital's outskirts, claiming 150 soldiers killed and 93 captured. Claims cannot be independently verified."
       },
       {
-        "time": "5d",
+        "time": "2026-10-08",
         "color": "blue",
-        "title": "France exits region",
-        "desc": "Last French military advisors withdraw from remaining Sahel bases."
+        "title": "Malian army retakes Kidal",
+        "desc": "The FLA retreated from Kidal in early October and the city returned to Malian army control."
+      },
+      {
+        "time": "2026-10-02",
+        "color": "red",
+        "title": "Massacre in Kamona village",
+        "desc": "Human Rights Watch reported that Malian soldiers and Dozo militiamen killed at least 21 men and burned homes in Kamona, Ségou region."
+      },
+      {
+        "time": "2026-10",
+        "color": "amber",
+        "title": "Escorted fuel convoys reach Bamako",
+        "desc": "The junta pushed escorted convoys through the blockade, delivering more than a thousand fuel tankers since late October."
+      },
+      {
+        "time": "2026-09",
+        "color": "red",
+        "title": "Siege of Bamako begins",
+        "desc": "JNIM laid siege to Bamako and cut fuel supplies to the capital, according to HRW."
       }
     ]
   },
@@ -361,12 +395,12 @@
     "since": "1949",
     "lat": 23.5,
     "lng": 120.9,
-    "casualties": "None (current)",
+    "casualties": "None",
     "displaced": "0",
     "sanctions": "450",
-    "duration": "75y",
-    "threat": 45,
-    "context": "The Taiwan Strait has been a flashpoint since 1949 when the Republic of China government retreated to Taiwan. China claims Taiwan as its territory and has increased military pressure through naval exercises, air incursions and economic coercion.",
+    "duration": "77y",
+    "threat": 48,
+    "context": "Beijing claims Taiwan as its territory and has steadily increased military pressure on the self-governed island. In December 2025 the PLA staged 'Justice Mission 2025', its largest drills around Taiwan to date, with over 130 aircraft sorties and coast guard participation. In October 2026 China answered President Lai Ching-te's National Day speech with live-fire artillery drills in five coastal zones far from Taiwan, while the PLA Navy made several large deployments into the Western Pacific through chokepoints north and south of the island, which analysts assess as rehearsals for blocking outside intervention. Taiwan's defence ministry is watching for a large-scale exercise in the November–December peak season.",
     "parties": [
       {
         "flag": "🇨🇳",
@@ -391,22 +425,34 @@
     ],
     "events": [
       {
-        "time": "12h",
+        "time": "2026-10-30",
         "color": "amber",
-        "title": "PLA naval exercise",
-        "desc": "40 warships conduct live-fire drills near the median line of the strait."
+        "title": "PLA Navy deploys into Western Pacific",
+        "desc": "AEI reported several large PLAN deployments through chokepoints around Taiwan since Oct 13, likely simulating a blockade against outside intervention."
       },
       {
-        "time": "2d",
+        "time": "2026-10-19",
         "color": "blue",
-        "title": "US arms sale approved",
-        "desc": "$500M military package cleared by Congress. Beijing issues formal protest."
+        "title": "US-Japan Keen Sword exercise begins",
+        "desc": "US and Japanese forces began the Keen Sword exercise (Oct 19–29), which PLA naval movements appeared timed to shadow."
       },
       {
-        "time": "4d",
-        "color": "dim",
-        "title": "Diplomatic talks frozen",
-        "desc": "Cross-strait communication channels remain closed for third consecutive month."
+        "time": "2026-10-15",
+        "color": "amber",
+        "title": "Taiwan braces for peak drill season",
+        "desc": "Taiwan's defence ministry said it is monitoring for a large-scale PLA exercise as the November–December peak season approaches."
+      },
+      {
+        "time": "2026-10-12",
+        "color": "amber",
+        "title": "Live-fire drills after Lai speech",
+        "desc": "China closed five coastal zones for artillery live-fire training. Taiwan said the zones were far from its waters, the closest 278 km away."
+      },
+      {
+        "time": "2026-10-10",
+        "color": "blue",
+        "title": "Lai delivers National Day speech",
+        "desc": "President Lai Ching-te's National Day address drew punitive responses from Beijing rather than a named exercise."
       }
     ]
   },
@@ -416,16 +462,16 @@
     "slug": "kashmir-conflict",
     "region": "South Asia",
     "severity": "low",
-    "status": "Frozen Conflict",
+    "status": "Frozen Conflict — persistent LoC incidents",
     "since": "1947",
     "lat": 34,
     "lng": 76,
     "casualties": "~70K",
     "displaced": "500K",
     "sanctions": "0",
-    "duration": "77y",
-    "threat": 35,
-    "context": "The Kashmir conflict began at the partition of British India in 1947. Both India and Pakistan claim the full territory of Kashmir. The Line of Control divides the region between the two nuclear-armed states, with China also controlling a portion.",
+    "duration": "79y",
+    "threat": 40,
+    "context": "India and Pakistan both claim the former princely state of Jammu and Kashmir, divided by the Line of Control since 1947–49. The region saw open fighting in May 2025 after the Pahalgam attack, ending in a ceasefire on 10 May 2025. Since then the situation has settled into persistent low-level tension: infiltration attempts, encounters with militants and cross-border firing along the LoC. Crisis Group rated the situation unchanged in October 2026. In Pakistan-administered Kashmir, protests over assembly seats left at least 40 dead in mid-2026.",
     "parties": [
       {
         "flag": "🇮🇳",
@@ -450,22 +496,28 @@
     ],
     "events": [
       {
-        "time": "2d",
+        "time": "2026-10-17",
         "color": "amber",
-        "title": "LoC ceasefire violation",
-        "desc": "India reports 8 cross-border incidents along the Line of Control this week."
+        "title": "Encounter with militants in Kupwara",
+        "desc": "Indian security forces engaged militants in Kupwara district, according to conflict trackers."
       },
       {
-        "time": "5d",
-        "color": "blue",
-        "title": "Nuclear posturing",
-        "desc": "Pakistan FM references deterrent capacity in statement at UN Security Council."
+        "time": "2026-10-13",
+        "color": "red",
+        "title": "Four killed in LoC landmine blast",
+        "desc": "The Indian army said four alleged Pakistani militants died in a landmine explosion in Poonch near the LoC; Pakistani media described them as civilians."
       },
       {
-        "time": "7d",
-        "color": "dim",
-        "title": "Back-channel talks",
-        "desc": "Back-channel communication between both sides reported via UAE intermediaries."
+        "time": "2026-09-25",
+        "color": "amber",
+        "title": "Infiltration bid foiled in Rajouri",
+        "desc": "The Indian Army said it thwarted an infiltration attempt in the Rajouri sector, with cross-border firing across the LoC."
+      },
+      {
+        "time": "2026-07",
+        "color": "red",
+        "title": "Deadly unrest in Pakistani Kashmir",
+        "desc": "At least 40 people, including 34 protesters and six security personnel, were killed in unrest over refugee seats in the local assembly."
       }
     ]
   },
@@ -475,16 +527,16 @@
     "slug": "yemen-civil-war",
     "region": "Middle East",
     "severity": "high",
-    "status": "Active",
+    "status": "Active — Houthi–Saudi escalation",
     "since": "2014",
     "lat": 15.5527,
     "lng": 48.5164,
-    "casualties": "377,000+ (including indirect deaths)",
-    "displaced": "4.5 million internally displaced",
-    "sanctions": "UN arms embargo on Houthi forces; US and EU sanctions on Houthi leadership",
-    "duration": "10+ years",
-    "threat": 87,
-    "context": "The Yemeni Civil War began in 2014 when Houthi forces (Ansar Allah), backed by Iran, seized the capital Sanaa and ousted the internationally recognized government. A Saudi-led coalition intervened in March 2015 to restore the government. The conflict has produced one of the world's worst humanitarian crises, with widespread famine, cholera outbreaks, and massive civilian casualties. Since late 2023, the Houthis have escalated attacks on commercial and military shipping in the Red Sea in solidarity with Gaza, triggering retaliatory US and UK airstrikes. A fragile UN-brokered truce periodically reduces ground fighting, but no lasting peace agreement has been reached. The Houthis continue to control large portions of northern Yemen including Sanaa, while the Saudi-backed Presidential Leadership Council governs southern and eastern territories from Aden.",
+    "casualties": "377K+",
+    "displaced": "4.5M",
+    "sanctions": "0",
+    "duration": "12y",
+    "threat": 82,
+    "context": "Yemen's war began when the Houthi movement seized Sanaa in 2014, prompting a Saudi-led intervention in 2015. Years of de facto truce have broken down: in recent weeks Saudi airstrikes have hit Houthi-held areas while the Houthis fire missiles and drones at southern Saudi Arabia. In September 2026 the Houthis seized the strategic Greater and Lesser Hanish islands in the southern Red Sea, tightening their grip on a key shipping lane. In early November strikes hit the Ras Isa oil terminal in Hodeidah and a telecom site near Saada; the Houthis claim more than 3,800 strikes since the escalation began. The war has killed an estimated 377,000 people, including indirect deaths, and left millions dependent on aid.",
     "wikiTitle": "Yemeni_civil_war_(2014–present)",
     "parties": [
       {
@@ -530,53 +582,47 @@
     ],
     "events": [
       {
-        "time": "2025-03-15",
+        "time": "2026-11-02",
         "color": "red",
-        "title": "US Airstrikes Intensify on Houthi Positions",
-        "desc": "The United States launched a new wave of airstrikes targeting Houthi missile storage facilities and drone launch sites in Sanaa, Hodeidah, and Saada governorates, following continued Houthi attacks on commercial vessels in the Red Sea. The strikes destroyed several ballistic missile depots, according to CENTCOM."
+        "title": "Strikes hit Ras Isa oil terminal",
+        "desc": "Houthi media said \"Saudi aggression\" airstrikes hit the Ras Isa terminal in Hodeidah, damaging a berth and a commercial vessel, and a telecom site near Saada."
       },
       {
-        "time": "2025-02-28",
-        "color": "red",
-        "title": "Houthis Claim Strike on US Aircraft Carrier",
-        "desc": "Houthi military spokesperson Yahya Sarea claimed a ballistic missile and drone barrage targeting the USS Harry S. Truman carrier strike group operating in the Red Sea. The US Navy confirmed intercepting multiple projectiles with no damage reported to naval assets."
-      },
-      {
-        "time": "2025-01-19",
+        "time": "2026-11-02",
         "color": "amber",
-        "title": "Gaza Ceasefire Leads to Temporary Houthi Shipping Pause",
-        "desc": "Following the announcement of a ceasefire in Gaza, Houthi leadership declared a temporary suspension of attacks on commercial shipping in the Red Sea and Gulf of Aden. Major shipping lines cautiously signaled potential route restoration through the Suez corridor pending verification."
+        "title": "Saudi coalition intercepts missile",
+        "desc": "The Saudi-led coalition said it intercepted a drone and a ballistic missile launched by the Houthis toward southern Saudi Arabia."
       },
       {
-        "time": "2024-11-08",
+        "time": "2026-10",
         "color": "red",
-        "title": "Houthi Ballistic Missile Targets Tel Aviv Area",
-        "desc": "Houthi forces fired a Palestina-2 hypersonic ballistic missile toward central Israel, which was intercepted by Israeli Arrow-3 defense systems over the Mediterranean. The attack marked an escalation in the Houthis' declared campaign against Israel in solidarity with Palestinian factions in Gaza."
+        "title": "Cross-border hostilities escalate",
+        "desc": "Weeks of escalating exchanges saw Saudi strikes on Houthi areas and Houthi missile and drone launches into the kingdom."
       },
       {
-        "time": "2024-09-29",
-        "color": "blue",
-        "title": "UN Envoy Resumes Mediation Talks in Muscat",
-        "desc": "UN Special Envoy for Yemen Hans Grundberg convened indirect talks between Houthi representatives and the Presidential Leadership Council in Muscat, Oman. Discussions focused on extending the informal truce, prisoner exchanges, and humanitarian access to Taiz, but concluded without a formal agreement."
+        "time": "2026-09",
+        "color": "red",
+        "title": "Houthis seize Hanish islands",
+        "desc": "The Houthis seized Greater and Lesser Hanish in the southern Red Sea, strengthening control over a key shipping route."
       }
     ]
   },
   {
     "id": "us-iran-conflict-2026",
-    "name": "US-Iran Conflict – Operation Epic Fury 2026",
+    "name": "US/Israel–Iran War 2026",
     "slug": "us-iran-operation-epic-fury-2026",
     "region": "Middle East",
     "severity": "high",
-    "status": "Active – Escalated Military Operations",
-    "since": "2026-01-15",
+    "status": "Active — no ceasefire; Strait of Hormuz crisis",
+    "since": "2026",
     "lat": 32.4279,
     "lng": 53.688,
-    "casualties": "Est. 1,200–3,500 (military & civilian combined)",
-    "displaced": "Est. 180,000–400,000 internally displaced in Iran",
-    "sanctions": "—",
-    "duration": "~6 months (ongoing)",
-    "threat": 92,
-    "context": "Operation Epic Fury is a sustained U.S.-led military campaign launched in early 2026 following Iran's acceleration of uranium enrichment to weapons-grade levels (90%+) and a series of Iranian-backed proxy attacks against U.S. forces in Iraq and Syria that killed over 40 American service members in late 2025. The operation initially targeted Iranian nuclear infrastructure including the Fordow Fuel Enrichment Plant, the Natanz facility, and the Parchin military complex, using B-2 stealth bombers armed with GBU-57 Massive Ordnance Penetrators (MOPs) in conjunction with Tomahawk cruise missile salvos from U.S. naval assets in the Persian Gulf and Red Sea. Iran retaliated with ballistic missile and drone strikes against U.S. bases in Qatar (Al Udeid) and UAE (Al Dhafra), and activated Hezbollah and Houthi proxy networks. The Strait of Hormuz was briefly disrupted, causing global oil prices to spike above $140/barrel. Regional escalation risks remain critically elevated, with China and Russia calling for immediate ceasefire negotiations at the UN Security Council.",
+    "casualties": "2.2K+",
+    "displaced": "3.2M",
+    "sanctions": "0",
+    "duration": "8m",
+    "threat": 90,
+    "context": "The US and Israel went to war with Iran in late February 2026; the US campaign, Operation Epic Fury, was declared over on 5 May, but the conflict did not end. A Pakistan-brokered ceasefire in April was violated within hours, and a later Islamabad memorandum collapsed in July after Iran attacked commercial shipping in the Strait of Hormuz; it expired unextended in August. Fighting has killed thousands across Iran, Lebanon, Israel and the Gulf (early official counts: at least 1,300 in Iran, 880 in Lebanon), and the UN estimated up to 3.2 million displaced inside Iran. In early November the US struck Iranian air defences on Qeshm island after an apparent attack on a US aircraft. Qatari mediators have held talks, but Iran calls US proposals unconvincing.",
     "wikiTitle": "Iran–United_States_relations",
     "parties": [
       {
@@ -587,12 +633,7 @@
       {
         "flag": "🇮🇱",
         "name": "Israel",
-        "role": "SUPPORTER"
-      },
-      {
-        "flag": "🇬🇧",
-        "name": "United Kingdom",
-        "role": "SUPPORTER"
+        "role": "AGGRESSOR"
       },
       {
         "flag": "🇮🇷",
@@ -600,215 +641,194 @@
         "role": "DEFENDER"
       },
       {
-        "flag": "🇷🇺",
-        "name": "Russia",
+        "flag": "🇶🇦",
+        "name": "Qatar",
         "role": "MEDIATOR"
       },
       {
-        "flag": "🇨🇳",
-        "name": "China",
+        "flag": "🇵🇰",
+        "name": "Pakistan",
         "role": "MEDIATOR"
       }
     ],
     "events": [
       {
-        "time": "2026-01-15T02:14:00Z",
-        "color": "red",
-        "title": "Operation Epic Fury Initiated – First Strike Wave",
-        "desc": "U.S. B-2 Spirit bombers deploy GBU-57 bunker-busters against Fordow and Natanz nuclear facilities. Simultaneous Tomahawk salvos from USS Gerald R. Ford CSG strike Parchin military complex. Pentagon confirms all strike packages executed successfully; Iran declares national emergency."
+        "time": "2026-11-04",
+        "color": "blue",
+        "title": "Iran calls US reply \"unconvincing\"",
+        "desc": "Tehran rejected Washington's response to its conditions for ending the war; no ceasefire is in force."
       },
       {
-        "time": "2026-01-17T19:45:00Z",
+        "time": "2026-11-02",
         "color": "red",
-        "title": "Iran Retaliatory Ballistic Missile Barrage on Al Udeid Air Base",
-        "desc": "Iran fires 22 Fattah-2 hypersonic and Shahab-3 ballistic missiles at Al Udeid Air Base in Qatar. U.S. THAAD and Patriot PAC-3 systems intercept 18; 4 impacts cause structural damage and kill 11 U.S. personnel. Qatar formally protests use of its territory as a strike origin point."
+        "title": "US strikes air defences on Qeshm",
+        "desc": "US forces carried out limited \"defensive\" strikes on Iranian air-defence systems on Qeshm island after an apparent Iranian attack on a US aircraft."
       },
       {
-        "time": "2026-02-03T08:30:00Z",
-        "color": "red",
-        "title": "Strait of Hormuz Closure Attempt – IRGC Naval Confrontation",
-        "desc": "Iranian Revolutionary Guard Corps Navy deploys fast-attack craft and sea mines, temporarily closing the Strait of Hormuz to commercial shipping. U.S. 5th Fleet engages IRGCN vessels; 3 Iranian gunboats sunk. Global oil prices surge to $142/barrel. Tanker traffic resumes after 38-hour disruption."
-      },
-      {
-        "time": "2026-02-21T11:00:00Z",
+        "time": "2026-11",
         "color": "amber",
-        "title": "UN Security Council Emergency Session – Ceasefire Draft Vetoed",
-        "desc": "China and Russia co-sponsor a binding ceasefire resolution at the UN Security Council. The United States vetoes the measure, citing Iran's continued uranium enrichment activities at undisclosed backup sites. UN Secretary-General calls the situation 'the most dangerous escalation of the 21st century'."
+        "title": "Mariner killed in Hormuz attack",
+        "desc": "A small Indian-crewed vessel was attacked in the Strait of Hormuz, killing at least one mariner."
       },
       {
-        "time": "2026-03-10T15:20:00Z",
+        "time": "2026-08-17",
         "color": "amber",
-        "title": "Covert Talks in Oman – Diplomatic Back-Channel Opens",
-        "desc": "Omani mediators confirm indirect U.S.-Iran talks held in Muscat. Iran demands full cessation of airstrikes and sanctions relief in exchange for IAEA access to remaining nuclear sites. U.S. insists on verifiable dismantlement of enrichment capacity. Talks described as 'preliminary but serious' by both sides."
+        "title": "Islamabad memorandum expires",
+        "desc": "The June memorandum between Washington and Tehran expired without extension after collapsing in July."
+      },
+      {
+        "time": "2026-07-08",
+        "color": "red",
+        "title": "Ceasefire collapses over Hormuz",
+        "desc": "The US–Iran ceasefire broke down after Iran attacked commercial vessels in the Strait of Hormuz."
       }
     ]
   },
   {
     "id": "us-caribbean-drug-war-hawkeye",
-    "name": "US Caribbean Drug War Operation Hawkeye",
+    "name": "US Caribbean Drug War",
     "slug": "us-caribbean-drug-war-operation-hawkeye",
     "region": "Caribbean",
     "severity": "medium",
-    "status": "Active Counter-Narcotics Operation",
-    "since": "2012",
+    "status": "Active — US strikes on alleged drug boats; post-Maduro Venezuela",
+    "since": "2025",
     "lat": 18.2208,
     "lng": -66.5901,
-    "casualties": "Hundreds of cartel operatives killed or captured annually",
-    "displaced": "Minimal direct displacement",
-    "sanctions": "—",
-    "duration": "12+ years",
-    "threat": 62,
-    "context": "Operation Hawkeye is a sustained US Joint Interagency Task Force South (JIATF-S) counter-narcotics campaign targeting drug trafficking organizations moving cocaine, fentanyl precursors, and marijuana through the Caribbean corridor, particularly via Puerto Rico, the Dominican Republic, Haiti, and the Lesser Antilles. The operation integrates US Coast Guard, DEA, CBP, and military assets to intercept maritime and aerial drug shipments. In 2024-2025, fentanyl trafficking through Caribbean routes surged alongside traditional cocaine flows from Colombian and Venezuelan-linked cartels. Gang destabilization in Haiti has further complicated interdiction efforts, as trafficking networks exploit the security vacuum. The US Southern Command expanded aerial surveillance and maritime patrol operations in response, coordinating with Dominican, Jamaican, and Eastern Caribbean authorities.",
+    "casualties": "150+",
+    "displaced": "0",
+    "sanctions": "0",
+    "duration": "1y 2m",
+    "threat": 60,
+    "context": "Since September 2025 the US military has carried out lethal strikes on vessels it says were smuggling drugs in the Caribbean and eastern Pacific, a campaign it frames as war against 'narco-terrorists'. The pressure culminated on 3 January 2026, when US special forces raided Caracas and captured Nicolás Maduro; Delcy Rodríguez has since served as acting leader. Boat strikes continued through 2026, reaching their 69th known strike in September, and the US has not presented public evidence that the vessels carried drugs. Death toll estimates vary between sources. The US is reportedly negotiating a status-of-forces agreement for troops in Venezuela and in June killed alleged Tren de Aragua leader Héctor 'Niño' Guerrero in an airstrike.",
     "wikiTitle": "Joint_Interagency_Task_Force_South",
     "parties": [
       {
         "flag": "🇺🇸",
-        "name": "United States (JIATF-South / USCG / DEA / SOUTHCOM)",
+        "name": "United States (SOUTHCOM)",
         "role": "AGGRESSOR"
       },
       {
-        "flag": "🇩🇴",
-        "name": "Dominican Republic Armed Forces",
-        "role": "SUPPORTER"
-      },
-      {
-        "flag": "🇯🇲",
-        "name": "Jamaica Defence Force",
-        "role": "SUPPORTER"
-      },
-      {
-        "flag": "🇵🇷",
-        "name": "Puerto Rico (US Territory / FBI / DEF)",
-        "role": "SUPPORTER"
-      },
-      {
-        "flag": "🇨🇴",
-        "name": "Colombian Cartels / Dissident FARC-EP",
-        "role": "DEFENDER"
-      },
-      {
         "flag": "🇻🇪",
-        "name": "Venezuela-linked Trafficking Networks (Tren de Aragua)",
+        "name": "Venezuela (interim gov.)",
         "role": "DEFENDER"
+      },
+      {
+        "flag": "💊",
+        "name": "Trafficking networks / Tren de Aragua",
+        "role": "DEFENDER"
+      },
+      {
+        "flag": "🇩🇴",
+        "name": "Dominican Republic",
+        "role": "SUPPORTER"
       }
     ],
     "events": [
       {
-        "time": "2025-03",
+        "time": "2026-09-20",
         "color": "red",
-        "title": "Major Cocaine Seizure Near Puerto Rico",
-        "desc": "USCG Cutter intercepted a semi-submersible vessel 80 nautical miles west of Puerto Rico carrying approximately 2,400 kg of cocaine linked to a Colombian trafficking cell. Three traffickers detained and transferred to DEA custody in San Juan."
+        "title": "69th boat strike kills four",
+        "desc": "SOUTHCOM announced a strike on a go-fast vessel in the Caribbean that killed four people, the 69th such strike."
       },
       {
-        "time": "2025-01",
-        "color": "amber",
-        "title": "Haiti Corridor Exploitation Escalates",
-        "desc": "US intelligence reports confirmed that Haitian gang coalition 'Viv Ansanm' began facilitating Caribbean drug transshipment through Port-au-Prince's collapsed port infrastructure, complicating JIATF-S interdiction operations and raising interagency coordination concerns."
-      },
-      {
-        "time": "2024-11",
-        "color": "red",
-        "title": "Fentanyl Precursor Network Dismantled",
-        "desc": "DEA and Dominican National Drug Control Directorate jointly dismantled a Caribbean-based fentanyl precursor distribution cell with links to Mexican Sinaloa Cartel. Fourteen arrests made across Santo Domingo and San Pedro de Macorís; $3.2M in assets seized."
-      },
-      {
-        "time": "2024-08",
+        "time": "2026-06-24",
         "color": "blue",
-        "title": "SOUTHCOM Expands Aerial Surveillance Assets",
-        "desc": "US Southern Command deployed additional P-8 Poseidon maritime patrol aircraft and E-2D Hawkeye AEW platforms to Roosevelt Roads forward operating site in Puerto Rico, doubling surveillance coverage of the Mona Passage and Windward Passage drug corridors."
+        "title": "US troops deploy after earthquake",
+        "desc": "Following a double earthquake, SOUTHCOM deployed about 2,000 troops to Venezuela and temporarily took control of the main airport."
       },
       {
-        "time": "2024-05",
-        "color": "amber",
-        "title": "Tren de Aragua Caribbean Links Confirmed",
-        "desc": "JIATF-S intelligence fusion cell publicly confirmed operational links between Venezuelan Tren de Aragua transnational gang and Caribbean maritime drug routes. Treasury OFAC issued new Kingpin Act designations against four Venezuelan nationals coordinating shipments through Trinidad and Tobago."
+        "time": "2026-05-04",
+        "color": "red",
+        "title": "Strike kills two in Caribbean",
+        "desc": "A US strike on an alleged drug boat killed two people as the campaign ramped up again despite the Iran war."
+      },
+      {
+        "time": "2026-01-03",
+        "color": "red",
+        "title": "US forces capture Maduro",
+        "desc": "US special forces raided Caracas and flew Nicolás Maduro and his wife to New York; Delcy Rodríguez became acting leader."
       }
     ]
   },
   {
     "id": "us-somalia-ct-2025",
-    "name": "US Somalia Counterterrorism Campaign 2025",
+    "name": "US Somalia Counterterrorism Campaign",
     "slug": "us-somalia-counterterrorism-2025",
     "region": "East Africa",
     "severity": "high",
-    "status": "Active",
+    "status": "Active — al-Shabaab offensive, US & UAE strikes",
     "since": "2007",
     "lat": 5.1521,
     "lng": 46.1996,
-    "casualties": "Thousands (combatants and civilians, cumulative since 2007)",
-    "displaced": "3.8 million internally displaced (Somalia total, 2024)",
-    "sanctions": "—",
-    "duration": "18+ years",
-    "threat": 82,
-    "context": "The United States has conducted sustained counterterrorism operations in Somalia since 2007, primarily targeting al-Shabaab, an al-Qaeda affiliate, and ISIS-Somalia. Operations involve airstrikes, drone strikes, and special operations forces (AFRICOM) working alongside Somali National Army (SNA) and African Union Transition Mission in Somalia (ATMIS) forces. Al-Shabaab controls significant territory in southern and central Somalia and continues to conduct high-profile attacks in Mogadishu and beyond. In 2024-2025, AFRICOM has intensified strikes following al-Shabaab offensives against SNA positions and increased ISIS-Somalia activity in Puntland. The humanitarian situation remains critical with drought, famine risk, and mass displacement compounding the security crisis.",
+    "casualties": "Thousands",
+    "displaced": "3.8M",
+    "sanctions": "0",
+    "duration": "19y",
+    "threat": 80,
+    "context": "Al-Shabaab, al-Qaeda's affiliate in Somalia, has fought the federal government and its foreign backers since 2007. The US conducts regular airstrikes against al-Shabaab and ISIS-Somalia in coordination with Mogadishu, including strikes on 17 and 19 October 2026. In late October al-Shabaab ambushed federal forces in South West State with car bombs and, reportedly, attack drones for the first time, and opened a new front in Puntland for the first time since early 2024. The UAE carried out its first reported strike in Somalia in almost a year. The AU's AUSSOM mission faces chronic funding shortfalls, the UN mission UNTMIS closed on 31 October, and the parliament speaker has accused politicians of colluding with the militants.",
     "wikiTitle": "American_intervention_in_Somalia_(2007–present)",
     "parties": [
-      {
-        "flag": "🇺🇸",
-        "name": "United States (AFRICOM)",
-        "role": "AGGRESSOR"
-      },
       {
         "flag": "🇸🇴",
         "name": "Somalia (SNA)",
         "role": "DEFENDER"
       },
       {
-        "flag": "🇦🇺",
-        "name": "African Union (ATMIS)",
+        "flag": "🇺🇸",
+        "name": "United States (AFRICOM)",
         "role": "SUPPORTER"
       },
       {
-        "flag": "🇪🇺",
-        "name": "European Union (EUTM Somalia)",
+        "flag": "🇦🇪",
+        "name": "United Arab Emirates",
         "role": "SUPPORTER"
       },
       {
-        "flag": "🏴",
+        "flag": "🌍",
+        "name": "African Union (AUSSOM)",
+        "role": "SUPPORTER"
+      },
+      {
+        "flag": "⚔️",
         "name": "Al-Shabaab (al-Qaeda affiliate)",
         "role": "AGGRESSOR"
       },
       {
-        "flag": "🏴",
+        "flag": "⚔️",
         "name": "ISIS-Somalia",
         "role": "AGGRESSOR"
-      },
-      {
-        "flag": "🇺🇳",
-        "name": "United Nations (UNSOM)",
-        "role": "MEDIATOR"
       }
     ],
     "events": [
       {
-        "time": "2025-04-18",
-        "color": "red",
-        "title": "AFRICOM Airstrike Kills Senior Al-Shabaab Commander",
-        "desc": "US Africa Command conducted a precision airstrike in the Lower Jubba region, confirmed killing a senior al-Shabaab operational commander linked to cross-border attacks into Kenya. AFRICOM assessed no civilian casualties."
+        "time": "2026-10-31",
+        "color": "blue",
+        "title": "UN mission UNTMIS closes",
+        "desc": "The UN Transitional Assistance Mission in Somalia ended its mandate on 31 October."
       },
       {
-        "time": "2025-03-07",
-        "color": "red",
-        "title": "Al-Shabaab Overruns SNA Forward Base in Hirshabelle",
-        "desc": "Al-Shabaab fighters overran a Somali National Army forward operating base in Hirshabelle State, killing at least 23 soldiers. The attack highlighted continued vulnerabilities in SNA force cohesion ahead of the planned ATMIS drawdown."
-      },
-      {
-        "time": "2025-02-14",
+        "time": "2026-10-21",
         "color": "amber",
-        "title": "ATMIS Announces Accelerated Drawdown Timeline",
-        "desc": "The African Union Transition Mission in Somalia announced an accelerated schedule to transfer security responsibilities to Somali forces by end of 2025, raising concerns among US and EU officials about a potential security vacuum exploited by al-Shabaab."
+        "title": "UAE strike in Puntland",
+        "desc": "The UAE reportedly struck militants planting roadside bombs in Puntland's Galgala pass, its first reported strike in Somalia since November 2025."
       },
       {
-        "time": "2024-12-11",
+        "time": "2026-10-19",
         "color": "red",
-        "title": "US Drone Strikes Target ISIS-Somalia in Puntland",
-        "desc": "AFRICOM carried out multiple drone strikes in the Bari region of Puntland targeting ISIS-Somalia (Islamic State in Somalia) training camps. At least 11 ISIS fighters were reported killed. ISIS-Somalia has escalated attacks on Puntland security forces throughout late 2024."
+        "title": "Al-Shabaab opens Puntland front",
+        "desc": "IED and mortar attacks around Galgala, south of Bosaso, marked al-Shabaab's first operations against Puntland forces since early 2024."
       },
       {
-        "time": "2024-10-28",
+        "time": "2026-10-17",
         "color": "amber",
-        "title": "Al-Shabaab Car Bombing Strikes Mogadishu Hotel",
-        "desc": "A vehicle-borne IED detonated outside a hotel frequented by government officials in Mogadishu, killing 8 people including two regional parliamentarians. Al-Shabaab claimed responsibility, signaling continued capacity to strike hardened urban targets despite counterterrorism pressure."
+        "title": "AFRICOM strikes al-Shabaab",
+        "desc": "US Africa Command conducted airstrikes on al-Shabaab on Oct 17 and 19 in coordination with the federal government."
+      },
+      {
+        "time": "2026-10",
+        "color": "red",
+        "title": "Al-Shabaab ambush in South West State",
+        "desc": "Al-Shabaab ambushed federal forces with car bombs and reportedly attack drones, a capability the group had not previously been confirmed to use."
       }
     ]
   },
@@ -818,16 +838,16 @@
     "slug": "drc-m23-war",
     "region": "Central Africa",
     "severity": "high",
-    "status": "Active",
+    "status": "Active — Doha process at risk",
     "since": "2021-11-01",
     "lat": -1.6817,
     "lng": 29.2228,
-    "casualties": "~7,000+ killed",
-    "displaced": "~7 million internally displaced",
+    "casualties": "7K+",
+    "displaced": "7M",
     "sanctions": "0",
-    "duration": "3+ years",
-    "threat": 92,
-    "context": "The M23 rebellion, backed by Rwanda (RDF), resumed large-scale offensives in eastern DRC in late 2021. By early 2025, M23 forces had captured Goma, capital of North Kivu, and advanced toward Bukavu in South Kivu, triggering a massive humanitarian catastrophe. The FARDC (Congolese army), reinforced by SADC mission troops and Burundian forces, has been unable to halt M23 advances. Rwanda denies direct involvement despite overwhelming UN evidence. Regional peace processes under the Nairobi and Luanda frameworks have repeatedly stalled.",
+    "duration": "5y",
+    "threat": 84,
+    "context": "The Rwanda-backed M23 rebellion re-emerged in eastern Congo in late 2021 and in early 2025 captured Goma and Bukavu, the capitals of North and South Kivu, which it still holds. A US-mediated deal between Kinshasa and Kigali and the Qatar-brokered Doha Framework, signed in November 2025, have not stopped the fighting; a ceasefire monitoring mechanism led by MONUSCO was mandated in February 2026, and an August roadmap tried to revive the delayed talks. The rebel coalition, now operating as the FRN, has threatened to quit the Doha process if Kinshasa goes ahead with a proposed constitutional referendum, while clashes with government forces intensify. Around 7 million people are displaced in Congo.",
     "wikiTitle": "M23_crisis_(2021–present)",
     "parties": [
       {
@@ -836,28 +856,28 @@
         "role": "DEFENDER"
       },
       {
-        "flag": "🇷🇼",
-        "name": "Rwanda (RDF)",
+        "flag": "⚔️",
+        "name": "M23 / AFC (FRN)",
         "role": "AGGRESSOR"
       },
       {
-        "flag": "⚔️",
-        "name": "M23 Rebels",
-        "role": "AGGRESSOR"
+        "flag": "🇷🇼",
+        "name": "Rwanda (RDF)",
+        "role": "SUPPORTER"
       },
       {
         "flag": "🇧🇮",
-        "name": "Burundi (FDNC)",
+        "name": "Burundi",
         "role": "SUPPORTER"
       },
       {
-        "flag": "🇿🇦",
-        "name": "SADC Mission (SAMIDRC)",
-        "role": "SUPPORTER"
+        "flag": "🇶🇦",
+        "name": "Qatar",
+        "role": "MEDIATOR"
       },
       {
-        "flag": "🇦🇴",
-        "name": "Angola",
+        "flag": "🇺🇸",
+        "name": "United States",
         "role": "MEDIATOR"
       },
       {
@@ -868,73 +888,57 @@
     ],
     "events": [
       {
-        "time": "2025-01-27",
+        "time": "2026-11-04",
         "color": "red",
-        "title": "M23 captures Goma",
-        "desc": "M23 forces, backed by Rwandan troops, seized Goma — the largest city in eastern DRC and capital of North Kivu — triggering mass civilian flight and the collapse of FARDC frontline defenses in the region."
+        "title": "Rebels threaten to quit Doha talks",
+        "desc": "The M23-led coalition said it would withdraw from the Doha Framework if Kinshasa holds a constitutional referendum, as fighting with government forces intensifies."
       },
       {
-        "time": "2025-02-14",
-        "color": "red",
-        "title": "Bukavu falls to M23",
-        "desc": "M23 rebels advanced south and captured Bukavu, capital of South Kivu, extending their territorial control across both eastern provinces and deepening the humanitarian crisis."
-      },
-      {
-        "time": "2025-03-18",
-        "color": "amber",
-        "title": "Luanda ceasefire talks collapse",
-        "desc": "Angola-mediated negotiations in Luanda broke down after M23 and Rwanda rejected DRC preconditions for withdrawal. Both sides accused each other of violations, while fighting continued near Minova and Kalehe."
-      },
-      {
-        "time": "2025-04-02",
+        "time": "2026-08-24",
         "color": "blue",
-        "title": "UN Security Council emergency session",
-        "desc": "The UN Security Council convened an emergency session following new reports of mass atrocities in Goma. A resolution demanding Rwandan troop withdrawal was vetoed, deepening diplomatic gridlock over the crisis."
+        "title": "Peace roadmap agreed",
+        "desc": "After talks in Switzerland, Kinshasa and AFC/M23 agreed a roadmap for the delayed Doha process and a standard method for reporting ceasefire violations."
       },
       {
-        "time": "2025-05-10",
-        "color": "amber",
-        "title": "SADC withdraws peacekeepers",
-        "desc": "South Africa announced the withdrawal of SAMIDRC peacekeeping forces from eastern DRC following the deaths of South African soldiers near Goma, significantly weakening military support for the Congolese government."
+        "time": "2026-02-03",
+        "color": "blue",
+        "title": "Ceasefire monitoring mandate signed",
+        "desc": "The parties signed a mandate for ceasefire monitoring teams led by MONUSCO with the ICGLR."
+      },
+      {
+        "time": "2025-11-15",
+        "color": "blue",
+        "title": "Doha Framework signed",
+        "desc": "Kinshasa and AFC/M23 signed a framework for a comprehensive peace agreement in Qatar."
       }
     ]
   },
   {
     "id": "syrian-civil-war-2025",
-    "name": "Syrian Civil War 2025",
+    "name": "Syrian Conflict",
     "slug": "syrian-civil-war-2025",
     "region": "Middle East",
     "severity": "high",
-    "status": "Active – Post-Assad Transition & Ongoing Insurgency",
+    "status": "Post-Assad transition — ISIS insurgency, Israeli operations",
     "since": "2011-03-15",
     "lat": 34.8021,
     "lng": 38.9968,
-    "casualties": "500,000+",
-    "displaced": "13.8 million (internally displaced and refugees)",
+    "casualties": "500K+",
+    "displaced": "13.8M",
     "sanctions": "0",
-    "duration": "14 years",
-    "threat": 82,
-    "context": "After over a decade of devastating civil war, the Assad regime collapsed in December 2024 following a rapid offensive led by Hayat Tahrir al-Sham (HTS) and allied factions. Bashar al-Assad fled to Russia on December 8, 2024. Syria now faces a fragile transition period with competing armed factions, a power vacuum in Damascus, ongoing ISIS insurgency in the eastern desert, Turkish-backed forces clashing with Kurdish SDF in the northeast, and Israeli airstrikes targeting weapons depots and military infrastructure. The new transitional government led by Ahmad al-Sharaa (Abu Mohammad al-Jolani) struggles to assert authority across the fractured country.",
+    "duration": "15y",
+    "threat": 70,
+    "context": "Fourteen years of civil war ended with the fall of Bashar al-Assad in December 2024. President Ahmed al-Sharaa's transitional government now controls most of the country: a US-mediated 'Ceasefire and Full Integration Agreement' with the Kurdish-led SDF was announced in January 2026, the government took over ISIS detention sites and al-Hol camp, and former SDF fighters were absorbed into the army by August. ISIS declared a 'new phase of operations' against Damascus in February. In the south, Israel continues military activity around Quneitra; the US, Israel and Syria set up a joint communication cell, and talks on a southern security arrangement resumed around September, but no deal has been signed. Israel is wary of Syria rebuilding its air defences.",
     "wikiTitle": "Syrian_civil_war",
     "parties": [
       {
         "flag": "🇸🇾",
-        "name": "HTS / Syrian Transitional Government",
+        "name": "Syrian Transitional Government",
         "role": "DEFENDER"
       },
       {
-        "flag": "🇸🇾",
-        "name": "Syrian Democratic Forces (SDF/Kurdish)",
-        "role": "DEFENDER"
-      },
-      {
-        "flag": "🏴",
+        "flag": "⚔️",
         "name": "Islamic State (ISIS)",
-        "role": "AGGRESSOR"
-      },
-      {
-        "flag": "🇹🇷",
-        "name": "Turkey / TFSA (Syrian National Army)",
         "role": "AGGRESSOR"
       },
       {
@@ -943,51 +947,46 @@
         "role": "AGGRESSOR"
       },
       {
-        "flag": "🇷🇺",
-        "name": "Russia",
+        "flag": "🇹🇷",
+        "name": "Turkey",
         "role": "SUPPORTER"
       },
       {
         "flag": "🇺🇸",
-        "name": "United States (CJTF-OIR)",
-        "role": "SUPPORTER"
-      },
-      {
-        "flag": "🇶🇦",
-        "name": "Qatar",
+        "name": "United States",
         "role": "MEDIATOR"
       }
     ],
     "events": [
       {
-        "time": "2024-12-08",
-        "color": "red",
-        "title": "Assad Regime Collapses – Damascus Falls",
-        "desc": "HTS-led forces entered Damascus after a lightning 12-day offensive. President Bashar al-Assad fled to Russia, ending 54 years of Assad family rule. Prisoners were released from Saydnaya prison and celebrations erupted across Syria."
-      },
-      {
-        "time": "2025-01-15",
-        "color": "red",
-        "title": "Israeli Airstrikes Destroy Syrian Military Infrastructure",
-        "desc": "Israeli Air Force conducted hundreds of airstrikes across Syria targeting naval vessels, air defense systems, ammunition depots, and military bases to prevent advanced weapons from falling into HTS or Iranian proxy hands. Israeli ground forces briefly occupied the Mount Hermon buffer zone."
-      },
-      {
-        "time": "2025-02-20",
-        "color": "red",
-        "title": "Turkish Forces Launch Operation Against Kurdish SDF in Northeast",
-        "desc": "Turkish-backed Syrian National Army intensified attacks on SDF-held territories in Tishrin Dam area and along the Euphrates. Clashes displaced thousands of civilians. The US called for restraint to protect its Kurdish partners in the anti-ISIS coalition."
-      },
-      {
-        "time": "2025-03-10",
+        "time": "2026-10",
         "color": "amber",
-        "title": "ISIS Resurges in Deir ez-Zor Desert Region",
-        "desc": "Islamic State conducted a series of ambushes and IED attacks against Syrian transitional forces and SDF units in the Badia desert east of Palmyra. At least 40 fighters were killed across multiple incidents, raising alarms about an ISIS comeback amid the security vacuum."
+        "title": "Israel warns of Syrian rearmament",
+        "desc": "An Israeli defence official warned that al-Sharaa is rebuilding military capacity, including air defences, while courting international legitimacy."
       },
       {
-        "time": "2025-04-05",
+        "time": "2026-09",
         "color": "blue",
-        "title": "International Donors Conference on Syria Reconstruction",
-        "desc": "An international conference in Brussels pledged over $7 billion in humanitarian aid and early reconstruction support for Syria. The EU and Gulf states conditioned long-term funding on inclusive governance and a credible transitional justice process. HTS designation as a terrorist organization remains a key obstacle to full normalization."
+        "title": "Israel–Syria security talks resume",
+        "desc": "Renewed contacts on a southern security arrangement were reported, alongside continued Israeli operations around Quneitra. No deal has been signed."
+      },
+      {
+        "time": "2026-08",
+        "color": "blue",
+        "title": "Former SDF fighters join army",
+        "desc": "Former SDF units were absorbed into the Syrian army, completing government takeover of the northeast."
+      },
+      {
+        "time": "2026-02",
+        "color": "red",
+        "title": "ISIS declares \"new phase\"",
+        "desc": "ISIS announced a new phase of operations against the al-Sharaa government and killed security personnel."
+      },
+      {
+        "time": "2026-01-18",
+        "color": "blue",
+        "title": "Damascus–SDF integration deal",
+        "desc": "A US-mediated ceasefire and full integration agreement between al-Sharaa and SDF commander Mazloum Abdi was announced."
       }
     ]
   },
@@ -997,21 +996,21 @@
     "slug": "haiti-gang-crisis",
     "region": "Caribbean",
     "severity": "high",
-    "status": "Active – Ongoing gang warfare and political vacuum",
+    "status": "Active — gangs control most of Port-au-Prince",
     "since": "2021",
     "lat": 18.5944,
     "lng": -72.3074,
-    "casualties": "5,600+ killed i",
-    "displaced": "700,000+ internally displaced",
+    "casualties": "5.6K+",
+    "displaced": "1.4M",
     "sanctions": "0",
-    "duration": "4+ years",
-    "threat": 88,
-    "context": "Following the assassination of President Jovenel Moïse in July 2021, Haiti descended into a power vacuum exploited by armed gangs, primarily the G9 and Viv Ansanm coalitions led by Jimmy 'Barbecue' Chérizier. By early 2024, gangs controlled an estimated 80% of Port-au-Prince, forcing Prime Minister Ariel Henry to resign in March 2024. A Transitional Presidential Council was established, and a Kenya-led Multinational Security Support Mission (MSS) began deploying in June 2024 with a UN mandate. Despite international efforts, gang violence, mass displacement, cholera outbreaks, and humanitarian catastrophe continue to worsen into 2025.",
+    "duration": "5y",
+    "threat": 86,
+    "context": "Haiti has been engulfed by gang violence since the assassination of President Jovenel Moïse in 2021. The Viv Ansanm coalition led by Jimmy 'Barbecue' Chérizier, designated a terrorist organisation by the US in 2025, controls an estimated 70–90% of Port-au-Prince and has expanded into the Artibonite and Centre departments. The UN Security Council replaced the Kenya-led mission with a Gang Suppression Force in September 2025 and extended it on 29 September 2026, but only about 1,000 of an authorised 5,500 personnel are deployed. In August 2026 a gang attack on a farming community in Kenscoff killed 30 people. Elections have repeatedly slipped amid the insecurity.",
     "wikiTitle": "Gang_warfare_in_Haiti_(2021–present)",
     "parties": [
       {
-        "flag": "🇭🇹",
-        "name": "Viv Ansanm Gang Coalition (G9 / G-Pèp)",
+        "flag": "🔫",
+        "name": "Viv Ansanm Gang Coalition",
         "role": "AGGRESSOR"
       },
       {
@@ -1020,14 +1019,9 @@
         "role": "DEFENDER"
       },
       {
-        "flag": "🇰🇪",
-        "name": "Kenya-led MSS Mission",
-        "role": "SUPPORTER"
-      },
-      {
         "flag": "🇺🇳",
-        "name": "United Nations (BINUH)",
-        "role": "MEDIATOR"
+        "name": "Gang Suppression Force (UN-authorised)",
+        "role": "SUPPORTER"
       },
       {
         "flag": "🇺🇸",
@@ -1037,34 +1031,28 @@
     ],
     "events": [
       {
-        "time": "2025-03-10",
-        "color": "red",
-        "title": "Gangs Launch Coordinated Offensive on Pétion-Ville",
-        "desc": "Viv Ansanm fighters stormed the upscale Pétion-Ville district in Port-au-Prince, burning homes and displacing tens of thousands in one of the deadliest single-week offensives since 2021. MSS and PNH forces struggled to mount an effective response."
-      },
-      {
-        "time": "2025-01-22",
-        "color": "red",
-        "title": "Massacre in Lizon Reported – 70+ Civilians Killed",
-        "desc": "UN investigators confirmed that armed gang members killed over 70 civilians, including women and children, in the Lizon neighborhood of Artibonite department, marking one of the worst massacres in the ongoing crisis."
-      },
-      {
-        "time": "2024-10-14",
-        "color": "amber",
-        "title": "Kenya Deploys Additional 600 MSS Troops",
-        "desc": "Kenya expanded its Multinational Security Support contingent to nearly 1,000 personnel following repeated gang breaches of the initial security perimeter around Port-au-Prince. The UN Security Council reaffirmed its mandate through late 2025."
-      },
-      {
-        "time": "2024-07-08",
+        "time": "2026-10-31",
         "color": "blue",
-        "title": "Transitional Presidential Council Sworn In",
-        "desc": "Haiti's Transitional Presidential Council formally inaugurated a new government structure following Prime Minister Ariel Henry's forced resignation in March 2024. The council faced immediate legitimacy challenges and continued gang interference with state functions."
+        "title": "Airlift for Gang Suppression Force",
+        "desc": "A large airlift of equipment for the Gang Suppression Force was reported as the mission works toward full capacity."
       },
       {
-        "time": "2024-03-05",
+        "time": "2026-09-29",
+        "color": "blue",
+        "title": "UN extends Gang Suppression Force",
+        "desc": "The Security Council renewed the GSF mandate; only about 1,000 of 5,500 authorised personnel are on the ground."
+      },
+      {
+        "time": "2026-08-24",
         "color": "red",
-        "title": "Gangs Seize Control of Major Port-au-Prince Districts",
-        "desc": "Jimmy 'Barbecue' Chérizier announced a coordinated offensive to overthrow the government, with Viv Ansanm gangs seizing the Toussaint Louverture International Airport approaches and the main seaport, triggering Prime Minister Henry's resignation and a full humanitarian emergency declaration."
+        "title": "Kenscoff attack kills 30",
+        "desc": "A gang attack on a farming community in Kenscoff, south of Port-au-Prince, killed 30 people; officials blamed Viv Ansanm."
+      },
+      {
+        "time": "2026-05",
+        "color": "amber",
+        "title": "Clashes inside Viv Ansanm",
+        "desc": "ACLED reported infighting within the coalition but judged a collapse of the alliance unlikely."
       }
     ]
   },
@@ -1074,16 +1062,16 @@
     "slug": "mexican-drug-war",
     "region": "North America",
     "severity": "high",
-    "status": "Active",
+    "status": "Active — Sinaloa civil war, CJNG after El Mencho",
     "since": "2006",
     "lat": 25.6866,
     "lng": -100.3161,
-    "casualties": "450,000+",
-    "displaced": "400,000+",
+    "casualties": "450K+",
+    "displaced": "400K+",
     "sanctions": "0",
-    "duration": "18+ years",
-    "threat": 82,
-    "context": "The Mexican Drug War is an ongoing asymmetric conflict between the Mexican federal government and powerful transnational criminal organizations (TCOs), primarily the Sinaloa Cartel and the Jalisco New Generation Cartel (CJNG). Since President Calderón deployed the military in 2006, the war has claimed over 450,000 lives and caused widespread internal displacement. The conflict intensified in 2024 following the arrest and U.S. extradition of Sinaloa Cartel co-founder Ismael 'El Mayo' Zambada, triggering an internal faction war between loyalists of Zambada and those of Joaquín Guzmán López. President Claudia Sheinbaum, who took office in October 2024, has maintained a hybrid security strategy combining military operations with social programs. The CJNG continues its territorial expansion into new states, while cartel violence increasingly spills across the U.S. border, straining bilateral relations and prompting U.S. Congress threats of direct military intervention.",
+    "duration": "20y",
+    "threat": 80,
+    "context": "Mexico's war against drug cartels, launched in 2006, has killed hundreds of thousands. The Sinaloa Cartel has been split by a civil war between the Chapitos and Mayos factions for more than two years since the arrest of 'El Mayo' Zambada, with violence shifting from Culiacán to southern Sinaloa and Mazatlán. In February 2026 Mexican special forces, acting on CIA intelligence, killed CJNG leader Nemesio 'El Mencho' Oseguera, raising fears of a similar fragmentation. President Sheinbaum has pledged to keep troops in Sinaloa and blames US actions for fuelling the violence, while cooperation with US intelligence, including expanded CIA surveillance flights, has deepened.",
     "wikiTitle": "Mexican_drug_war",
     "parties": [
       {
@@ -1092,75 +1080,75 @@
         "role": "DEFENDER"
       },
       {
-        "flag": "🇲🇽",
-        "name": "Sinaloa Cartel (Chapitos faction)",
+        "flag": "⚔️",
+        "name": "Sinaloa Cartel (Chapitos)",
         "role": "AGGRESSOR"
       },
       {
-        "flag": "🇲🇽",
+        "flag": "⚔️",
+        "name": "Sinaloa Cartel (Mayos)",
+        "role": "AGGRESSOR"
+      },
+      {
+        "flag": "⚔️",
         "name": "Jalisco New Generation Cartel (CJNG)",
         "role": "AGGRESSOR"
       },
       {
-        "flag": "🇲🇽",
-        "name": "Sinaloa Cartel (Mayistas faction)",
-        "role": "AGGRESSOR"
-      },
-      {
         "flag": "🇺🇸",
-        "name": "United States (DEA / Treasury OFAC)",
+        "name": "United States",
         "role": "SUPPORTER"
       }
     ],
     "events": [
       {
-        "time": "2025-03",
-        "color": "red",
-        "title": "CJNG Offensive in Michoacán",
-        "desc": "Jalisco New Generation Cartel launched a major offensive in the Tierra Caliente region of Michoacán, displacing over 3,000 civilians and killing at least 45 people in clashes with Cárteles Unidos and federal security forces."
-      },
-      {
-        "time": "2025-01",
-        "color": "red",
-        "title": "Sinaloa Intra-Cartel War Escalates",
-        "desc": "Faction fighting between Chapitos loyalists and Mayistas intensified in Culiacán and Badiraguato, with car bombs and ambushes leaving over 120 dead in January alone. The Mexican Army deployed 3,000 additional troops to Sinaloa."
-      },
-      {
-        "time": "2024-10",
+        "time": "2026-10-22",
         "color": "amber",
-        "title": "Sheinbaum Takes Office, Announces New Security Plan",
-        "desc": "Incoming President Claudia Sheinbaum unveiled a six-pillar security strategy combining National Guard deployments, intelligence coordination with the U.S., and social welfare programs targeting cartel recruitment zones."
+        "title": "Intimidation banner in Mazatlán",
+        "desc": "A banner exposing three women appeared in Mazatlán, part of continued intimidation amid the factional war."
       },
       {
-        "time": "2024-08",
+        "time": "2026-10-14",
         "color": "red",
-        "title": "Arrest of 'El Mayo' Zambada Triggers Sinaloa Split",
-        "desc": "Ismael 'El Mayo' Zambada was arrested in Texas after allegedly being lured by Joaquín Guzmán López. The event fractured the Sinaloa Cartel into two warring factions, sparking the deadliest period of violence in Sinaloa in over a decade."
+        "title": "Decapitated body found in Culiacán",
+        "desc": "A decapitated man was found behind Plaza San Isidro with a note blaming rival cartel members."
       },
       {
-        "time": "2024-05",
+        "time": "2026-10-09",
+        "color": "red",
+        "title": "Mazatlán prison riot kills 10",
+        "desc": "A fight at El Castillo prison left 10 dead and 16 injured; authorities did not say if it was linked to the cartel war."
+      },
+      {
+        "time": "2026-09-21",
         "color": "blue",
-        "title": "U.S. Designates CJNG as Transnational Criminal Organization",
-        "desc": "The U.S. Treasury Department expanded OFAC sanctions against 22 CJNG-linked individuals and front companies across Mexico, Colombia, and China, targeting fentanyl precursor supply chains in a joint operation with the DEA."
+        "title": "Sheinbaum keeps troops in Sinaloa",
+        "desc": "Visiting Sinaloa, President Sheinbaum promised no Navy, Army or National Guard troops would be withdrawn as fighting shifted to Mazatlán."
+      },
+      {
+        "time": "2026-02",
+        "color": "red",
+        "title": "CJNG leader El Mencho killed",
+        "desc": "Mexican special forces, acting on CIA intelligence, killed CJNG leader Nemesio Oseguera."
       }
     ]
   },
   {
     "id": "tigray-war-ethiopia",
-    "name": "Tigray War",
+    "name": "Northern Ethiopia War (Tigray)",
     "slug": "tigray-war-ethiopia",
     "region": "East Africa",
-    "severity": "medium",
-    "status": "Ceasefire / Post-conflict instability",
+    "severity": "high",
+    "status": "Active — war resumed in September 2026",
     "since": "2020-11-04",
     "lat": 14.0323,
     "lng": 38.3168,
-    "casualties": "300,000–500,000",
-    "displaced": "~2.5 million",
+    "casualties": "300K+",
+    "displaced": "2.5M",
     "sanctions": "0",
-    "duration": "4+ years",
-    "threat": 52,
-    "context": "The Tigray War erupted in November 2020 when the Ethiopian federal government, led by Prime Minister Abiy Ahmed, launched a military offensive against the Tigray People's Liberation Front (TPLF) following an attack on a federal military base in Mekelle. The conflict drew in Eritrean forces and Amhara regional militias. It became one of the deadliest conflicts of the 21st century, marked by widespread atrocities, famine-level food insecurity, and systematic sexual violence. A Permanent Cessation of Hostilities agreement was signed in Pretoria in November 2022 under African Union mediation. Implementation has been slow and contested, with Eritrean troops maintaining a presence, sporadic violence persisting, and humanitarian access remaining severely restricted through 2024.",
+    "duration": "6y",
+    "threat": 82,
+    "context": "The 2020–2022 Tigray war, one of the deadliest conflicts of the century, ended with the Pretoria agreement, but the deal unravelled. On 23 September 2026 large-scale hostilities broke out when TPLF and Amhara Fano forces attacked federal positions, with the heaviest fighting in North Wollo. Federal forces captured the Tigray capital Mekelle and advanced north and west; Reuters, AFP and ACLED report Eritrean troops crossing into Tigray, which Asmara denies. Fano has joined the TPLF and five other regional rebel groups in an alliance to overthrow the federal government, and Ethiopia and Eritrea are on the brink of direct conflict. On 3 November the TPLF claimed a counter-attack killed some 500 government soldiers and militiamen.",
     "wikiTitle": "Tigray_War",
     "parties": [
       {
@@ -1169,19 +1157,19 @@
         "role": "AGGRESSOR"
       },
       {
-        "flag": "🇪🇷",
-        "name": "Eritrea (EDF)",
-        "role": "SUPPORTER"
-      },
-      {
-        "flag": "🏴",
-        "name": "Amhara Fano Militias",
-        "role": "SUPPORTER"
-      },
-      {
-        "flag": "🏴",
-        "name": "Tigray People's Liberation Front (TPLF)",
+        "flag": "⚔️",
+        "name": "TPLF / Tigray forces",
         "role": "DEFENDER"
+      },
+      {
+        "flag": "⚔️",
+        "name": "Amhara Fano",
+        "role": "DEFENDER"
+      },
+      {
+        "flag": "🇪🇷",
+        "name": "Eritrea (alleged)",
+        "role": "SUPPORTER"
       },
       {
         "flag": "🌍",
@@ -1191,53 +1179,47 @@
     ],
     "events": [
       {
-        "time": "2024-02",
-        "color": "amber",
-        "title": "Eritrean Troops Refuse Withdrawal",
-        "desc": "Eritrean Defense Forces continued to occupy parts of northern Tigray despite repeated AU and Ethiopian calls for withdrawal, undermining full implementation of the Pretoria agreement."
-      },
-      {
-        "time": "2024-05",
+        "time": "2026-11-03",
         "color": "red",
-        "title": "Clashes Resume in Western Tigray",
-        "desc": "Armed clashes between Tigrayan forces and Amhara Fano militias reignited in contested areas of western Tigray, displacing tens of thousands of civilians and stalling humanitarian convoys."
+        "title": "TPLF claims major counter-attack",
+        "desc": "The TPLF said its counter-attack killed about 500 and wounded 800 government soldiers and allied militiamen. Addis Ababa gave no account."
       },
       {
-        "time": "2024-08",
+        "time": "2026-10-16",
         "color": "amber",
-        "title": "WFP Suspends Aid Over Access Denials",
-        "desc": "The World Food Programme temporarily suspended food distributions in several Tigray zones after Ethiopian authorities denied convoy access, raising alarm over renewed famine risk for an estimated 1.4 million people."
+        "title": "TPLF sidelines interim administration",
+        "desc": "The TPLF moved to consolidate control of Tigray, pushing aside the federally backed interim administration."
       },
       {
-        "time": "2024-11",
-        "color": "blue",
-        "title": "Two-Year Pretoria Anniversary Review",
-        "desc": "African Union envoy Olusegun Obasanjo convened a review session marking two years since the Pretoria agreement, acknowledging stalled disarmament and calling on all parties to accelerate transitional justice mechanisms."
+        "time": "2026-10",
+        "color": "red",
+        "title": "Federal forces capture Mekelle",
+        "desc": "Ethiopian federal forces took the Tigray capital and advanced toward strategic towns; Eritrean troops reportedly crossed into Tigray."
       },
       {
-        "time": "2025-02",
-        "color": "dim",
-        "title": "Tigray Interim Administration Holds Talks",
-        "desc": "The Tigray Interim Regional Administration held internally mediated discussions with TPLF factions on political reconciliation, though deep divisions over leadership and accountability for wartime atrocities remain unresolved."
+        "time": "2026-09-23",
+        "color": "red",
+        "title": "Large-scale war erupts",
+        "desc": "TPLF and Fano forces attacked federal and allied positions, with the heaviest fighting in North Wollo."
       }
     ]
   },
   {
     "id": "india-pakistan-2025",
-    "name": "India-Pakistan Conflict 2025",
+    "name": "India–Pakistan Conflict 2025",
     "slug": "india-pakistan-2025",
     "region": "South Asia",
-    "severity": "high",
-    "status": "Active — military escalation",
+    "severity": "medium",
+    "status": "Ceasefire holding — tension persists",
     "since": "2025-04-22",
     "lat": 34.0837,
     "lng": 74.7973,
-    "casualties": "~1,500+",
-    "displaced": "~400,000+",
+    "casualties": "~200",
+    "displaced": "N/A",
     "sanctions": "0",
-    "duration": "Ongoing since April 2025",
-    "threat": 92,
-    "context": "Following a deadly terrorist attack on Hindu pilgrims in Pahalgam, Kashmir, on April 22, 2025, India blamed Pakistan-based militant group Lashkar-e-Taiba. India launched 'Operation Sindoor' on May 7, 2025, conducting precision air and missile strikes against terrorist infrastructure in Pakistan-administered Kashmir and Punjab province. Pakistan responded with cross-border shelling and claimed to have downed Indian aircraft. Both nuclear-armed states entered the most severe military confrontation since the 1999 Kargil War, prompting emergency diplomatic interventions by the United States, China, Saudi Arabia, and the UN Secretary-General. A fragile ceasefire was brokered on May 10, 2025, though border skirmishes continued intermittently.",
+    "duration": "1y 6m",
+    "threat": 55,
+    "context": "After militants killed 26 people at Pahalgam in Indian-administered Kashmir on 22 April 2025, India launched Operation Sindoor against targets in Pakistan in May, triggering the most serious military exchange between the nuclear-armed neighbours in decades, including missile, drone and artillery strikes. A ceasefire took effect on 10 May 2025 and has broadly held. Relations remain frozen, and tension persists along the Line of Control through infiltration attempts, landmine incidents and encounters with militants, which Crisis Group rated as unchanged in October 2026.",
     "wikiTitle": "2025_India–Pakistan_border_standoff",
     "parties": [
       {
@@ -1268,34 +1250,34 @@
     ],
     "events": [
       {
-        "time": "2025-04-22",
+        "time": "2026-10-13",
         "color": "red",
-        "title": "Pahalgam Terror Attack",
-        "desc": "Gunmen opened fire on Hindu tourists in Pahalgam, Jammu & Kashmir, killing 26 civilians. India attributed the attack to Lashkar-e-Taiba operatives backed by Pakistani intelligence (ISI), triggering a major diplomatic crisis and suspension of the Indus Waters Treaty."
+        "title": "LoC landmine blast kills four",
+        "desc": "India said four Pakistani militants died in a landmine explosion in Poonch; Pakistan said they were civilians."
       },
       {
-        "time": "2025-05-07",
-        "color": "red",
-        "title": "India Launches Operation Sindoor",
-        "desc": "Indian Air Force and Army conducted coordinated missile and air strikes on nine targets across Pakistan-administered Kashmir and Punjab, including alleged militant training camps in Bahawalpur and Muzaffarabad. Pakistan condemned the strikes as an act of war and placed its armed forces on full alert."
-      },
-      {
-        "time": "2025-05-08",
-        "color": "red",
-        "title": "Pakistan Retaliates — Cross-Border Shelling",
-        "desc": "Pakistan Army launched heavy artillery shelling along the Line of Control in Poonch and Kupwara sectors. Pakistani officials claimed to have shot down two Indian Air Force jets; India acknowledged one aircraft lost while denying broader Pakistani claims. Multiple civilian casualties reported on both sides of the LoC."
-      },
-      {
-        "time": "2025-05-09",
-        "color": "amber",
-        "title": "US and Saudi Arabia Broker Emergency Talks",
-        "desc": "US Secretary of State and Saudi Foreign Minister held back-channel negotiations with both New Delhi and Islamabad. CIA Director flew to the region to deliver direct de-escalation messages. India and Pakistan agreed to a temporary halt in offensive operations pending diplomatic resolution, though both maintained heightened military postures."
+        "time": "2026-10",
+        "color": "blue",
+        "title": "CrisisWatch: situation unchanged",
+        "desc": "Crisis Group rated India–Pakistan tensions unchanged in October 2026, citing disputes over border killings."
       },
       {
         "time": "2025-05-10",
         "color": "blue",
-        "title": "Fragile Ceasefire Announced",
-        "desc": "India and Pakistan jointly announced a ceasefire along the Line of Control effective 1700 hrs IST on May 10, 2025. The agreement, facilitated by the US and Saudi Arabia, included commitments to resume bilateral communication channels. Sporadic small-arms fire was reported within hours of the announcement, raising doubts about full compliance."
+        "title": "Ceasefire announced",
+        "desc": "India and Pakistan agreed to halt military action after four days of cross-border strikes."
+      },
+      {
+        "time": "2025-05-07",
+        "color": "red",
+        "title": "India launches Operation Sindoor",
+        "desc": "India struck targets in Pakistan and Pakistani-administered Kashmir; Pakistan retaliated with artillery, drones and missiles."
+      },
+      {
+        "time": "2025-04-22",
+        "color": "red",
+        "title": "Pahalgam attack",
+        "desc": "Militants killed 26 people, mostly tourists, near Pahalgam in Indian-administered Kashmir."
       }
     ]
   }
